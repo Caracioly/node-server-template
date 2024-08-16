@@ -9,9 +9,9 @@ export async function registerSwagger(app: FastifyInstance) {
       consumes: ["application/json"],
       produces: ["application/json"],
       info: {
-        title: "name",
-        description: "API for CS50 final project",
-        version: "0.1.0",
+        title: "project name",
+        description: "project description",
+        version: "0.1.0", // project version
       },
     },
     transform: jsonSchemaTransform,
